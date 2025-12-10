@@ -1,0 +1,21 @@
+{
+  "name": "sofie",
+  "version": "1.0.0",
+  "description": "sofie the digital assistant",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "digital",
+    "assistant",
+    "ai",
+    "sofie"
+  ],
+  "author": "Mr.Bostelman",
+  "license": "ISC",
+  "dependencies": {
+    "@deepgram/sdk": "^4.11.2",
+    "dotenv": "^17.2.3"
+  }
+}
