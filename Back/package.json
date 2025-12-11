@@ -1,21 +1,22 @@
 {
-  "name": "sofie",
+  "name": "twilio-deepgram-server",
   "version": "1.0.0",
-  "description": "sofie the digital assistant",
-  "main": "server.js",
+  "description": "A simple server application that connects a Twilio phone number to Deepgram for audio transcription.",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"No tests specified\" && exit 0"
   },
-  "keywords": [
-    "digital",
-    "assistant",
-    "ai",
-    "sofie"
-  ],
-  "author": "Mr.Bostelman",
-  "license": "ISC",
   "dependencies": {
-    "@deepgram/sdk": "^4.11.2",
-    "dotenv": "^17.2.3"
-  }
+    "@deepgram/sdk": "^1.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "twilio": "^3.67.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "",
+  "license": "ISC"
 }
