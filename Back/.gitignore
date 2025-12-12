@@ -4,3 +4,7 @@ node_modules/
 #environment files
 .env
 .env.local
+
+#call summaries
+call_summaries.txt
+chatlog.txt
